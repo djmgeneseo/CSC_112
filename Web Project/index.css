@@ -14,7 +14,7 @@ html, body {
 
 .indexBody { 
   font-family: "sans-serif", Serif, Georgia;
-  background-image: url('me.jpg');
+  background-image: url('pictures/me.jpg');
   background-position: center top;
   background-size: cover;
   margin: 0;
