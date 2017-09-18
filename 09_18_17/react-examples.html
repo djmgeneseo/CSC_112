@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>React Examples</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.14.0/babel.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js"></script>
+  </head>
+  <body>
+    HTML BEFORE HERE<BR><BR>
+    <div id = "example"></div><BR><BR>
+    HTML AFTER HERE
+    <script type = "text/babel">
+      var Greeting = React.createClass({
+          render: function() {
+            return <div>Hi, {this.props.name}<img src = "foo" />
+                            {this.props.children}</div>;
+          }
+      });
+
+      var ClassGreeting = React.createClass({
+          render: function() {
+            return ( 
+             <div>
+               <Greeting name = "Alice">!</Greeting>
+               <Greeting name = "Bob">?</Greeting>
+               <Greeting name = "Carmen">...</Greeting>
+               <Greeting name = "Diego">????</Greeting>
+               <Greeting name = "John">!!!</Greeting> 
+             </div>
+            );
+          }
+      });
+
+      var mountNode = document.getElementById('example');
+      ReactDOM.render(<ClassGreeting />, mountNode);
+    </script>
+  </body>
+</html>
