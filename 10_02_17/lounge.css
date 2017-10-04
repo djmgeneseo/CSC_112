@@ -1,0 +1,24 @@
+p {
+	color: maroon;
+}
+
+h1, h2 {
+	color: grey;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-decoration: underline;
+}
+
+img {
+	width: 61px;
+	height: auto;
+	transition: 500ms;
+}
+
+img:hover {
+	width: 121px;
+	height:auto;
+	transition:500ms;
+}
