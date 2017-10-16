@@ -1,0 +1,25 @@
+body {
+	font-family: sans-serif;
+}
+
+p {
+	color: maroon;
+	font-weight: bold;
+}
+
+.greentea {
+	color: green;
+}
+
+/* em that belongs to greentea class. <em class="greentea"> */
+em.greentea {
+	color: maroon;
+}
+
+h1, h2 {
+	color: gray;
+}
+
+h1 {
+	border-bottom: 1px solid black;
+}
