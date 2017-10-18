@@ -1,0 +1,14 @@
+
+/*
+@font-face {
+	font-family: "Emblema One";
+	src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
+	url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
+}
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Emblema+One');
+
+h1 {
+	font-family: "Emblema One", sans-serif;
+}
