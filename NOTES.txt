@@ -36,3 +36,6 @@ higher number = lighter shade
 "_self" = same page
 "_blank" = open in new tab
 
+text-align: center;
+	- Controls inline elements: if used on a div, the nested div's inline-elements would be cetnered.
+	
