@@ -39,3 +39,22 @@ higher number = lighter shade
 text-align: center;
 	- Controls inline elements: if used on a div, the nested div's inline-elements would be cetnered.
 	
+
+CASCADE: TIEBREAKER
+	- Author 
+	- User
+	- number of Id's
+	- number of classes
+	- number of element names (em, p, body)
+	- order that rules are placed
+	- THEN look up
+
+Extra space between margins:
+	- When two margins touch, the bigger margin is assigned to both elements.
+	so 10 and 20 margins touch, instead of 30 you'd get 20
+	- nested margins act differently, too.
+
+Float:
+	- Only in-line content respects the borders of floated elements
+	- clear: right; on an element that 's adjacent to a floating element
+	means "I don't want you floating on me to the right" and so the element will push down
