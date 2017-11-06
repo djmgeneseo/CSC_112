@@ -56,5 +56,5 @@ Extra space between margins:
 
 Float:
 	- Only in-line content respects the borders of floated elements
-	- clear: right; on an element that 's adjacent to a floating element
-	means "I don't want you floating on me to the right" and so the element will push down
+	- 'clear: right;' on any element that's adjacent to a floating element
+		'clear: right;' means "I don't want you floating on me to the right" and so the element will push down
